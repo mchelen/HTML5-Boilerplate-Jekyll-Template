@@ -85,14 +85,15 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <time datetime="{{ ps.date }}" pubdate>{{ ps.date }}</time>
 </header>
 {% if ps.categories != "" %}
+<p>"{{ ps.categories}}"</p>
 <p>Published under</p>
 <ul class="category-list">
 {% for cat in ps.categories %}
 <li><a href="#">{{ cat }}</a></li>
-{% endif %}
+{% endfor %}
 </ul>
-</section>
 {% endif %}
+</section>
 {% endfor %}
 </article>
 
