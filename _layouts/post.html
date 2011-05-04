@@ -69,23 +69,24 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <body class="clearfix">
 
 <header role="banner" class="clearfix">
-  <h1>{{ page.title }}</h1>
-  <p>Site URL: {{ site.url }}</p>
-  <p>Page URL: {{ page.url }}</p>
+<h1>{{ page.title }}</h1>
+<p>Site URL: {{ site.url }}</p>
+<p>Page URL: {{ page.url }}</p>
 </header>
 
 <div class="content clearfix">
 
-  <div role="main">
-  </div>
+<div role="main">
+{{ post.content }}
+</div>
 
-  <div role="complementary">
-  </div>
+<div role="complementary">
+</div>
 
 </div>
 
 <footer role="contentinfo" class="clearfix">
-  <p>This is only some test data to see wether the resources get linked correctly.</p>
+  <p>{{ site.license }} <a href="{{ site.owner-page }}">{{ site.owner-name}}</a></p>
 </footer>
 
 <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->

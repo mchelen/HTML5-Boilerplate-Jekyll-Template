@@ -69,23 +69,40 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <body class="clearfix">
 
 <header role="banner" class="clearfix">
-  <h1>{{ page.title }}</h1>
-  <p>Site URL: {{ site.url }}</p>
-  <p>Page URL: {{ page.url }}</p>
+<h1>{{ page.title }}</h1>
 </header>
 
 <div class="content clearfix">
 
-  <div role="main">
-  </div>
+<article role="main">
+<header>
+<h1>Posts<h1>
+</header>
+{% for ps in site.posts %}
+<section>
+<header>
+<h1><a href="{{ ps.url }}">{{ ps.title }}</a></h1>
+<time datetime="{{ ps.date }}" pubdate>{{ ps.date }}</time>
+</header>
+{% if ps.categories != "" %}
+<p>Published under</p>
+<ul class="category-list">
+{% for cat in ps.categories %}
+<li><a href="#">{{ cat }}</a></li>
+{% endif %}
+</ul>
+</section>
+{% endif %}
+{% endfor %}
+</article>
 
-  <div role="complementary">
-  </div>
+<aside role="complementary">
+</aside>
 
 </div>
 
 <footer role="contentinfo" class="clearfix">
-  <p>This is only some test data to see wether the resources get linked correctly.</p>
+  <p>{{ site.license }} <a href="{{ site.owner-page }}">{{ site.owner-name}}</a></p>
 </footer>
 
 <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
