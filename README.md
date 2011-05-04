@@ -1,11 +1,11 @@
 # Jekyll Template with HTML 5 Boilerplate and "320 and up"
 
 ## Thanks
-A special thanks to [Cypher][] who brought me to Jekyll and Github Pages in the first place. Another special thanks goes out to xon1c, for pointing me to "320 and up". 
+A special thanks to [Markus "Cypher" Prinz][Cypher] who brought me to Jekyll and Github Pages in the first place. Another special thanks goes out to [Thomas "xon1c" Nägele][xon1c], for pointing me to "320 and up". 
 
 A shout out to Vito Botta for his blog post [Migrating from Wordpress to Jekyll - Part 2: **Everything** you need to know about Jekyll][migratewpjekyll] -- I've found some pretty helpfull hints in there.
 
-Thank you [Paul Irish][paulirish] and the numerous commiters to the [HTML5 Boilerplate][boilerplate] project on [github][boilerplatereopcommiters] as well as [Andy Clarke][andyclarke] for creating [320 and up][320andup] -- you guys are awesome. :)
+Thank you [Paul Irish][paulirish] and the numerous commiters to the [HTML5 Boilerplate][boilerplate] project on [github][boilerplaterepomem] as well as [Andy Clarke][andyclarke] for creating [320 and up][320andup] -- you guys are awesome. :)
 
 ## Foreword
 Hi, my name is Florian, and I created this little template to help me with two things: get familiar with the stuff I wanted to use (HTML5 Boilerplate, 320 and up, Jekyll) and to ease the deployment of the whole package to [my blog][myblog].
@@ -89,9 +89,9 @@ This is were the content for your index page goes. The generation of an overview
 
 ### Bundeled Software with Licenses
 +  [HTML5 Boilerplate][boilerplate] stripped ([The Unlicense][unlicense])
-  *  jQuery ([MIT][mit]/[GPL][gpl] license)
-  *  [Modernizr][modernizrrepo] ([MIT][mit]/[BSD][bsd] license)
-  *  DD_belatedPNG ([MIT][mit] license)
+  *  [jQuery][] ([MIT][mit]/[GPL][gpl] license)
+  *  [Modernizr][modernizr] ([MIT][mit]/[BSD][bsd] license)
+  *  [DD_belatedPNG][ddbelated] ([MIT][mit] license)
   *  YUI Profiling ([BSD][bsd] license)
   *  HTML5Doctor CSS reset (Public Domain)
   *  CSS Reset Reloaded (Public Domain)
@@ -181,21 +181,25 @@ Find out more about [320 and up][320andup].
 `-- robots.txt
 </pre>
 
-[myblog]: http://lebobs.ch/															"My Blog about me and the stuff I care about. ;)"
-[paulirish]: http://paulirish.com/ 													"Paul Rish' private homepage"
-[andyclarke]: http://stuffandnonsense.co.uk/										"Homepage of Andy Clarke's design firm"
-[boilerplaterepo]: https://github.com/paulirish/html5-boilerplate/network/members 	"Committers to the HTML5 Boilerplate repoistory on github"
-[Github]: https://github.com/ 														"Github.com"
-[Jekyll-Wiki]: https://github.com/mojombo/jekyll/wiki/ 								"The Jekyll Wiki on github.com"
-[usage]: https://github.com/mojombo/jekyll/wiki/usage 								"The page on the usage of Jekyll in the Jekyll Wiki"
-[config]: https://github.com/mojombo/jekyll/wiki/Configuration 						"Page in the Jekyll Wiki on the configuration of Jekyll"
-[ghp]: http://pages.github.com/ 													"Github Pages"
-[boilerplaterepo]: https://github.com/paulirish/html5-boilerplate					"Github repository of HTML5 Boilerplate"
-[boilerplate]: http://html5boilerplate.com/											"HTML5 Boilerplate"
-[320andup]: http://stuffandnonsense.co.uk/projects/320andup/ 						"320 and up"
-[migratewpjekyll]: http://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/ 	"Migrating from Wordpress to Jekyll - Part 2: **Everything** you need to know about Jekyll"
-[modernizr]: http://www.modernizr.com/ 												"Modernizr"
-[unlicense]: http://unlicense.org/ 													"The Unlicense"
-[mit]: http://opensource.org/licenses/mit-license.php 								"The MIT license"
-[bsd]: http://www.opensource.org/licenses/bsd-license.php 							"The BSD license"
-[gpl]: http://www.gnu.org/licenses/gpl.html 										"The GPL"
+[xon1c]: http://strichundfaden.com/														"Portfolio of Thomas Nägele"
+[cypher]: http://nuclearsquid.com/														"Blog of Markus Prinz"
+[myblog]: http://lebobs.ch/																"My Blog about me and the stuff I care about. ;)"
+[paulirish]: http://paulirish.com/ 														"Paul Rish' private homepage"
+[andyclarke]: http://stuffandnonsense.co.uk/											"Homepage of Andy Clarke's design firm"
+[Github]: https://github.com/ 															"Github.com"
+[Jekyll-Wiki]: https://github.com/mojombo/jekyll/wiki/ 									"The Jekyll Wiki on github.com"
+[usage]: https://github.com/mojombo/jekyll/wiki/usage 									"The page on the usage of Jekyll in the Jekyll Wiki"
+[config]: https://github.com/mojombo/jekyll/wiki/Configuration 							"Page in the Jekyll Wiki on the configuration of Jekyll"
+[ghp]: http://pages.github.com/ 														"Github Pages"
+[boilerplaterepo]: https://github.com/paulirish/html5-boilerplate						"Github repository of HTML5 Boilerplate"
+[boilerplaterepomem]: https://github.com/paulirish/html5-boilerplate/network/members 	"Committers to the HTML5 Boilerplate repoistory on github"
+[boilerplate]: http://html5boilerplate.com/												"HTML5 Boilerplate"
+[320andup]: http://stuffandnonsense.co.uk/projects/320andup/ 							"320 and up"
+[migratewpjekyll]: http://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/ 		"Migrating from Wordpress to Jekyll - Part 2: **Everything** you need to know about Jekyll"
+[modernizr]: http://www.modernizr.com/ 													"Modernizr"
+[unlicense]: http://unlicense.org/ 														"The Unlicense"
+[mit]: http://opensource.org/licenses/mit-license.php 									"The MIT license"
+[bsd]: http://www.opensource.org/licenses/bsd-license.php 								"The BSD license"
+[gpl]: http://www.gnu.org/licenses/gpl.html 											"The GPL"
+[jQuery]: http://jquery.com/															"The jQuery Framework"
+[ddbelated]: http://www.dillerdesign.com/experiment/DD_belatedPNG/						"DD_belatedPNG -- Medicine for your IE6/PNG headache!"
