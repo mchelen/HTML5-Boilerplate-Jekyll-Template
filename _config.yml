@@ -1,6 +1,8 @@
 markdown: rdiscount
 auto: true
 
+exclude: README.md
+
 url: http://127.0.0.1:4000
 
 owner-name: Florian Holzner
