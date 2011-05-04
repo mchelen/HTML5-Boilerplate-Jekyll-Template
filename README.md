@@ -7,6 +7,26 @@ A shout out to Vito Botta for his blog post [Migrating from Wordpress to Jekyll 
 
 Thank you [Paul Irish][paulirish] and the numerous commiters to the [HTML5 Boilerplate][boilerplate] project on [github][boilerplatereopcommiters] as well as [Andy Clarke][andyclarke] for creating [320 and up][320andup] -- you guys are awesome. :)
 
+## Foreword
+Hi, my name is Florian, and I created this little template to help me with two things: get familiar with the stuff I wanted to use (HTML5 Boilerplate, 320 and up, Jekyll) and to ease the deployment of the whole package to [my blog][myblog].
+
+**This is very much a work in progress, so don't expect too much of it.**
+
+I've just started. I've basically just bundled *HTML5 Boilerplate* and *320 and up* and set up the default folder structure for Jekyll. With some fumbling here and there it seems to work pretty fine already. I'm unsure about what I should get up to next, but if you look into my TODO-file, you'll find some of the stuff I'm planning to do.
+
+Have fun! ;-)
+Florian Holzner,
+Vienna,
+2011-05-04
+
+## Getting Started
+Just check out this repository from github, and you're pretty much good to go. You might want to edit `_config.yml` so your name shows up on the homepage.
+
+You should have Jekyll and Pygments installed locally, if you want to really work with this. Once jekyll is installed, just run Jekyll from the root directory of the template with `jekyll --safe --server --pygments` and you are golden.
+
+## License
+This software is shared under [The Unlicense][unlicense].
+
 ## Folder Structure for Jekyll
 This template contains the default folder structure for a blog to be rendered by Jekyll (like those on [Github Pages][ghp]). The following files and folders are a part of that.
 
@@ -161,9 +181,8 @@ Find out more about [320 and up][320andup].
 `-- robots.txt
 </pre>
 
----
-
-[paulirish]: http://paulirish.com 													"Paul Rish' private homepage"
+[myblog]: http://lebobs.ch/															"My Blog about me and the stuff I care about. ;)"
+[paulirish]: http://paulirish.com/ 													"Paul Rish' private homepage"
 [andyclarke]: http://stuffandnonsense.co.uk/										"Homepage of Andy Clarke's design firm"
 [boilerplaterepo]: https://github.com/paulirish/html5-boilerplate/network/members 	"Committers to the HTML5 Boilerplate repoistory on github"
 [Github]: https://github.com/ 														"Github.com"
