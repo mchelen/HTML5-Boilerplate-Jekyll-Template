@@ -1,7 +1,7 @@
 markdown: rdiscount
 auto: true
 
-exclude: README.md
+exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 
 url: http://127.0.0.1:4000
 
