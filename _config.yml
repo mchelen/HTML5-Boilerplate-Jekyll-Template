@@ -1,3 +1,6 @@
+markdown: rdiscount
+auto: true
+
 # You can put your configuration options for Jekyll in here.
 # Jekyll's default configuration is already pretty good, and github only adds
 # pygments and safe as command line options when running Jekyll.
